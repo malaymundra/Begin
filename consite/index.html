@@ -3,11 +3,56 @@
  	<head>
  		<meta charset="utf-8">
  		<title>First</title>
+ 	<style>
+ 		body {background: #FFCBA4;}
+ 		header {color:green;}
+ 		h2 {color:green;
+ 			font-size:30px;
+ 			text-align:center;
+ 			font-family: fantasy;}
+ 		section {color:blue;
+ 			font-size:24px; }
+ 		article {color:red;
+ 			font-size:18px;
+ 			font-family: cursive;}
+ 		ol {color:purple;
+ 			font-family: sans-serif;
+ 			font-size: 15px;}
+ 		ul {color:magenta;
+ 			font-family: Serif;
+ 			font-size: 20px;}
+ 		.monospace {font-family: monospace;
+ 			font-style: oblique;
+ 			color:orange;}
+ 		.funfact {color:red;
+ 			width:150px;
+ 			text-align: center;
+ 			float:right;
+ 			margin-bottom: 25px;
+ 			margin-right:100px;
+ 			padding: 20px;
+ 			border-style: double;
+ 			border-color: red;}
+ 		a:link, a:visited{text-decoration: none;
+ 			color:black;}
+ 		a:hover {color:blue;
+ 			border: 2px groove red;
+ 			font-family: monospace;}
+ 		#Menu {font-size: 15px;
+ 			line-height: 0.7em;
+ 			color:black;
+ 			width:300px;}
+ 		#Menu p:nth-child(odd) {background: gray;}
+ 		#Menu > p:hover {color:maroon;
+ 			cursor: pointer;
+ 			font-family: monospace;
+ 			font-size: 20px;}
+ 	</style>
  	</head>
  	<body>
  		<HEADER>Services | Books | Work with us</HEADER>
  		<h2> Learning to develope! </h2>
- 		<section> It is intersting to enter this New World of <em>&lt;coding&gt;</em>. </section><br>
+ 		<section> It is intersting to enter this New World of <span class="monospace">&lt;coding&gt;</span>. </section><br>
 
  		<img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg" width=500>
 
@@ -23,12 +68,31 @@
  						<li>Then Integrating with CSS and JavaScript</li>
  					</ol>
  				</li>
- 				<li>CSS</li>
+ 				<li>CSS
+ 					<ol>
+ 						<li>CSS anatomy</li>
+ 						<li>Predefined Property</li>
+ 						<li>Value to the property</li>
+ 					</ol>
+ 				</li>
  				<li>JavaScript</li>
  				<li>Basic Internet knowledge</li>
- 		<aside> Tim Berners Lee, founder of World Wide Web (WWW) is creator of HTML </aside><br>
+ 		<aside class="funfact"> Tim Berners Lee, founder of World Wide Web (WWW) is creator of HTML </aside><br>
 
- 		<aside> I'm  learning from coursera <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" width=75></a> &lt;--click on the image to be directed to the course page <br><br>
+ 		<div id="Menu">
+ 		<p>Element 1</p>
+ 		<p>Element 2</p>
+ 		<p>Element 3</p>
+ 		<p>Element 4</p>
+ 		<p>Element 5</p>
+ 		<p>Element 6</p>
+ 		<p>Element 7</p>
+ 		<p>Element 8</p>
+ 		<p>Element 9</p>
+ 		<p>Element 10</p>
+ 		</div>
+
+ 		<aside> I'm  learning from coursera!  <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" width=75></a> &lt;--click on the image to be directed to the course page <br><br>
 
  		Created by Malay Mundra &copy;	<br><br>
  		<footer>Contact us on <a href="https://www.instagram.com/malay_tries/" target="_blank">Insta</a>|<a href="https://www.facebook.com/malay.mundra" target="_blank"> Facebook</a>| Email</footer>
