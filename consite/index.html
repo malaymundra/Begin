@@ -4,6 +4,7 @@
  		<meta charset="utf-8">
  		<title>First</title>
  	<style>
+ 		* {box-sizing: border-box;}
  		body {background: #FFCBA4;}
  		header {color:green;}
  		h2 {color:green;
@@ -38,15 +39,27 @@
  		a:hover {color:blue;
  			border: 2px groove red;
  			font-family: monospace;}
- 		#Menu {font-size: 15px;
- 			line-height: 0.7em;
+ 		#menu {font-size: 15px;
+ 			line-height: 1em;
  			color:black;
- 			width:300px;}
- 		#Menu p:nth-child(odd) {background: gray;}
- 		#Menu > p:hover {color:maroon;
+ 			width:300px;
+ 			height: 200px;
+ 			border: 1px solid blue;
+ 			margin: 5px;
+ 			padding: 2px;
+ 			overflow: auto;}
+ 		#menu p:nth-child(odd) {background: gray;}
+ 		#menu > p:hover {color:maroon;
  			cursor: pointer;
  			font-family: monospace;
- 			font-size: 20px;}
+ 			font-size: 20px;
+ 			font-weight: bold;
+ 			text-transform:uppercase;}
+ 		#test {width:500px;
+ 			height: 500px;
+ 			border: 2px solid blue;
+ 			background-image: url("https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753");
+ 			background-repeat: no-repeat;}
  	</style>
  	</head>
  	<body>
@@ -79,7 +92,7 @@
  				<li>Basic Internet knowledge</li>
  		<aside class="funfact"> Tim Berners Lee, founder of World Wide Web (WWW) is creator of HTML </aside><br>
 
- 		<div id="Menu">
+ 		<div id="menu">
  		<p>Element 1</p>
  		<p>Element 2</p>
  		<p>Element 3</p>
@@ -93,6 +106,8 @@
  		</div>
 
  		<aside> I'm  learning from coursera!  <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" width=75></a> &lt;--click on the image to be directed to the course page <br><br>
+
+ 		<div id ="test"></div>
 
  		Created by Malay Mundra &copy;	<br><br>
  		<footer>Contact us on <a href="https://www.instagram.com/malay_tries/" target="_blank">Insta</a>|<a href="https://www.facebook.com/malay.mundra" target="_blank"> Facebook</a>| Email</footer>
