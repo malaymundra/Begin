@@ -55,11 +55,13 @@
  			font-size: 20px;
  			font-weight: bold;
  			text-transform:uppercase;}
- 		#test {width:500px;
- 			height: 500px;
- 			border: 2px solid blue;
- 			background-image: url("https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753");
- 			background-repeat: no-repeat;}
+ 		#test {background-image: url("https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753");
+ 			color: white;}
+ 		#test > p {width: 50%;}
+ 		#t1 {float: left;}
+ 		#t2 {float: right;}
+ 		#t {clear: both;
+ 			color: pink;}
  	</style>
  	</head>
  	<body>
@@ -107,7 +109,12 @@
 
  		<aside> I'm  learning from coursera!  <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" width=75></a> &lt;--click on the image to be directed to the course page <br><br>
 
- 		<div id ="test"></div>
+ 		<div id ="test">
+ 			<section style="text-align: center;">Creating a difference between of sorts</section>
+ 			<p id="t1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ 			<p id ="t2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+ 			<section id="t">random text for test purposes</section>
+ 		</div>
 
  		Created by Malay Mundra &copy;	<br><br>
  		<footer>Contact us on <a href="https://www.instagram.com/malay_tries/" target="_blank">Insta</a>|<a href="https://www.facebook.com/malay.mundra" target="_blank"> Facebook</a>| Email</footer>
@@ -115,5 +122,5 @@
  </html>  
 
 
-
+<!-- background-image: url("https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753"); -->
  <!-- browser-sync start --server --directory --files "*" -->
