@@ -5,49 +5,53 @@
  		<title>First</title>
  	<style>
  		* {box-sizing: border-box;}
- 		body {background: #FFCBA4;}
+ 		body {background: #F5F5F5;
+ 			color:green;
+ 			font-size: 16px;}
  		header {color:green;}
- 		h2 {color:green;
+ 		header > span:hover {color:red;
+ 			font-family: monospace;
+ 			font-size: 1.5em;
+ 			cursor: pointer;}
+ 		h2 {color:maroon;
  			font-size:30px;
  			text-align:center;
  			font-family: fantasy;}
- 		section {color:blue;
- 			font-size:24px; }
- 		article {color:red;
- 			font-size:18px;
- 			font-family: cursive;}
- 		ol {color:purple;
+ 		article {font-family: cursive;}
+ 		ol {color:black;
  			font-family: sans-serif;
  			font-size: 15px;}
- 		ul {color:magenta;
+ 		ul {color:purple;
  			font-family: Serif;
  			font-size: 20px;}
  		.monospace {font-family: monospace;
  			font-style: oblique;
  			color:orange;}
  		.funfact {color:red;
- 			width:150px;
+ 			width:700px;
  			text-align: center;
- 			float:right;
  			margin-bottom: 25px;
  			margin-right:100px;
  			padding: 20px;
  			border-style: double;
- 			border-color: red;}
+ 			border-color: red;
+ 			margin-top: 35px;
+ 			margin-left: 400px;}
  		a:link, a:visited{text-decoration: none;
  			color:black;}
- 		a:hover {color:blue;
+ 		aside > a:hover {color:blue;
  			border: 2px groove red;
  			font-family: monospace;}
  		#menu {font-size: 15px;
  			line-height: 1em;
  			color:black;
- 			width:300px;
- 			height: 200px;
+ 			width:250px;
  			border: 1px solid blue;
  			margin: 5px;
  			padding: 2px;
- 			overflow: auto;}
+ 			margin: 10px;
+ 			clear: both;
+ 			margin-left: 600px;}
  		#menu p:nth-child(odd) {background: gray;}
  		#menu > p:hover {color:maroon;
  			cursor: pointer;
@@ -55,17 +59,36 @@
  			font-size: 20px;
  			font-weight: bold;
  			text-transform:uppercase;}
- 		#test {background-image: url("https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753");
- 			color: white;}
- 		#test > p {width: 50%;}
- 		#t1 {float: left;}
- 		#t2 {float: right;}
- 		#t {clear: both;
- 			color: pink;}
+ 		table {width: 100%;
+ 			padding:2px;
+ 			margin: 2px;
+ 			color:magenta;
+ 			border:2px inset green;
+ 			border-collapse: collapse;
+ 			text-align: center;
+ 			margin-bottom: 50px;
+ 			margin-top: 50px;}
+ 		tr {border: 2px solid green;}
+ 		td {border: 2px solid green;}
+ 		th {border: 2px solid green;}
+ 		aside {margin-top: 50px;
+ 			color: red;}
+ 		#Malay {color: teal;
+ 			font-family: monospace;
+ 			font-style: italic;}
+ 		.footer > a:link, a:visited{text-decoration: none;
+ 			color:black;}	
+ 		.footer > a:hover {color:blue;
+ 			font-family: monospace;
+ 			font-size: 1.5em;
+ 			cursor: pointer;}
+ 		footer {color:blue;}
+
+
  	</style>
  	</head>
  	<body>
- 		<HEADER>Services | Books | Work with us</HEADER>
+ 		<HEADER><span>Services</span> |<span> Books</span> |<span> Work with us</span></HEADER>
  		<h2> Learning to develope! </h2>
  		<section> It is intersting to enter this New World of <span class="monospace">&lt;coding&gt;</span>. </section><br>
 
@@ -92,7 +115,7 @@
  				</li>
  				<li>JavaScript</li>
  				<li>Basic Internet knowledge</li>
- 		<aside class="funfact"> Tim Berners Lee, founder of World Wide Web (WWW) is creator of HTML </aside><br>
+ 		<p class="funfact"> Tim Berners Lee, founder of World Wide Web (WWW) is creator of HTML </p><br>
 
  		<div id="menu">
  		<p>Element 1</p>
@@ -107,17 +130,33 @@
  		<p>Element 10</p>
  		</div>
 
- 		<aside> I'm  learning from coursera!  <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" width=75></a> &lt;--click on the image to be directed to the course page <br><br>
-
- 		<div id ="test">
- 			<section style="text-align: center;">Creating a difference between of sorts</section>
- 			<p id="t1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- 			<p id ="t2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
- 			<section id="t">random text for test purposes</section>
+ 		<aside> I'm  learning from <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank">Coursera!</a> &lt;--click on the image to be directed to the course page <br><br>
+ 		<div>
+ 			<table>
+ 				<thead>
+ 					<tr>
+ 						<th>HTML</th>
+ 						<th>CSS</th>
+ 						<th>JavaScript</th>
+ 					</tr>
+ 				</thead>
+ 				<tbody>
+ 					<tr>
+ 						<td>Fills the content in the webpage</td>
+ 						<td>Helps style the webpage</td>
+ 						<td>Makes the webpage interactive</td>
+ 					</tr>
+ 					<tr>
+ 						<td>Markup Language</td>
+ 						<td>Styling Language</td>
+ 						<td>Coding language</td>
+ 					</tr>
+ 				</tbody>
+ 			</table>
  		</div>
 
- 		Created by Malay Mundra &copy;	<br><br>
- 		<footer>Contact us on <a href="https://www.instagram.com/malay_tries/" target="_blank">Insta</a>|<a href="https://www.facebook.com/malay.mundra" target="_blank"> Facebook</a>| Email</footer>
+ 		Created by <span id="Malay"> Malay Mundra </span> &copy;	<br><br>
+ 		<footer>Contact us on <span class="footer"> <a href="https://www.instagram.com/malay_tries/" target="_blank">Insta</a></span>|<span class="footer"><a href="https://www.facebook.com/malay.mundra" target="_blank"> Facebook</a></span>| <span class="footer"><a href="www.gmail.com"> Email </a></span></footer>
  	</body>
  </html>  
 
