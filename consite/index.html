@@ -12,7 +12,7 @@
  	<body>
 
 		<header>
- 			<nav id="header-nav" class="navbar navbar-default">
+ 			<nav id="header-nav" class="navbar navbar-default navbar-expand-lg navbar-expand-md">
  				<div class="container">
  					<div class="navbar-header">
  						<a href="index.html" class="float-start d-none d-sm-none d-md-block">
@@ -24,21 +24,35 @@
  							<p>Mom certified &copy;</p>
  						</div>
 
- 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapsable-nav">
- 							<span class="sr-only">Toggle navigation</span>
- 							<span class="icon-bar"></span>
- 							<span class="icon-bar"></span>
- 							<span class="icon-bar"></span>
+ 						<button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ 							<span class="navbar-toggler-icon me-auto"></span>
  						</button>
  					</div>
- 					
+ 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 						<ul class="ms-auto navbar-nav" id="nav-list">
+ 							<li class="nav-item">
+ 								<a class="nav-link active" aria current="page" href="about.html"><span class="glyphicon glyphicon-info-sign">
+ 								</span>
+ 								<br class="d-xs-none">About</a>
+ 							</li>
+ 							<li class="nav-item">
+ 								<a class="nav-link active" href="menu.html">
+ 								<span class="glyphicon glyphicon-cutlery"></span><br class="d-xs-none">Menu</a>
+ 							</li>
+ 							<li class="nav-item">
+ 								<a class="nav-link active" href="Contact.html">
+ 								<span class="glyphicon glyphicon-earphone"></span><br class="d-xs-none"> Contact Us </a>
+ 							</li>
+
+ 						</ul>
+ 					</div>	
  				</div>
  			</nav>
  		</header>
 
  		
  	<script type="JavaScript" src ="jquery-ui.min.js"></script>
- 	<script src="bootstrap.min.js"></script>
+ 	<script type="JavaScript" src="bootstrap.min.js"></script>
  	<script src="myjs.js"></script>
 
  	</body>
