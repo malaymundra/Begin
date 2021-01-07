@@ -2,89 +2,47 @@
  <html>
  	<head>
  		<meta charset="utf-8">
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
  		<meta name="viewport" content="width=device-width, initial-scale=1">
- 		<title>First</title>
+ 		<title>Mom's Cafe</title>
  		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
- 		<link rel="stylesheet" type="text/css" href="style.css">
+ 		<link rel="stylesheet" type="text/css" href="style.css"> 
  		
  	</head>
  	<body>
- 		<script type="JavaScript" src ="jquery-ui.min.js"></script>
- 		<script src="bootstrap.min.js"></script>
- 		<script src="myjs.js"></script>
 
- 		<HEADER><span>Services</span> |<span> Books</span> |<span> Work with us</span></HEADER>
- 		<h2> Learning to develope! </h2>
- 		<section> It is intersting to enter this New World of <span class="monospace">&lt;coding&gt;</span>. </section><br>
+		<header>
+ 			<nav id="header-nav" class="navbar navbar-default">
+ 				<div class="container">
+ 					<div class="navbar-header">
+ 						<a href="index.html" class="float-start d-none d-sm-none d-md-block">
+ 							<div id="logo-img" alt="Logo Image"></div>
+ 						</a>
 
- 		<img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg" width=500>
+ 						<div class="navbar-brand">
+ 							<a href="index.html"><h1>Mom's Cafe</h1></a>
+ 							<p>Mom certified &copy;</p>
+ 						</div>
 
- 			<article>We often ignore the work that goes behind creating the webpages that we so often use in our daily lives. Its commendble how much effort is put into.</article><br>
- 			<article>Web development has been increasing in popularity rapidly, as the need to have online presence for any person or business has increased </article><br>
+ 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapsable-nav">
+ 							<span class="sr-only">Toggle navigation</span>
+ 							<span class="icon-bar"></span>
+ 							<span class="icon-bar"></span>
+ 							<span class="icon-bar"></span>
+ 						</button>
+ 					</div>
+ 					
+ 				</div>
+ 			</nav>
+ 		</header>
 
- 			<p>Things needed in Web development:</p>
- 			<ul>
- 				<li>HTML
- 					<ol>
- 						<li>Start with tags</li>
- 						<li>Then Attributes</li>
- 						<li>Then Integrating with CSS and JavaScript</li>
- 					</ol>
- 				</li>
- 				<li>CSS
- 					<ol>
- 						<li>CSS anatomy</li>
- 						<li>Predefined Property</li>
- 						<li>Value to the property</li>
- 					</ol>
- 				</li>
- 				<li>JavaScript</li>
- 				<li>Basic Internet knowledge</li>
- 		<p class="funfact"> Tim Berners Lee, founder of World Wide Web (WWW) is creator of HTML </p><br>
+ 		
+ 	<script type="JavaScript" src ="jquery-ui.min.js"></script>
+ 	<script src="bootstrap.min.js"></script>
+ 	<script src="myjs.js"></script>
 
- 		<div id="menu">
- 		<p>Element 1</p>
- 		<p>Element 2</p>
- 		<p>Element 3</p>
- 		<p>Element 4</p>
- 		<p>Element 5</p>
- 		<p>Element 6</p>
- 		<p>Element 7</p>
- 		<p>Element 8</p>
- 		<p>Element 9</p>
- 		<p>Element 10</p>
- 		</div>
-
- 		<aside> I'm  learning from <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/kMmI7/lecture-9-creating-links" target="_blank">Coursera!</a> &lt;--click on the name to be directed to the course page <br><br>
- 		<div>
- 			<table>
- 				<thead>
- 					<tr>
- 						<th>HTML</th>
- 						<th>CSS</th>
- 						<th>JavaScript</th>
- 					</tr>
- 				</thead>
- 				<tbody>
- 					<tr>
- 						<td>Fills the content in the webpage</td>
- 						<td>Helps style the webpage</td>
- 						<td>Makes the webpage interactive</td>
- 					</tr>
- 					<tr>
- 						<td>Markup Language</td>
- 						<td>Styling Language</td>
- 						<td>Coding language</td>
- 					</tr>
- 				</tbody>
- 			</table>
- 		</div>
-
- 		<p id="cb">Created by <span id="Malay"> Malay Mundra </span> &copy;	</p><br><br>
- 		<footer>Contact us on <span class="footer"> <a href="https://www.instagram.com/malay_tries/" target="_blank">Insta</a></span>|<span class="footer"><a href="https://www.facebook.com/malay.mundra" target="_blank"> Facebook</a></span>| <span class="footer"><a href="www.gmail.com"> Email </a></span></footer>
  	</body>
  </html>  
 
 
-<!-- background-image: url("https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753"); -->
- <!-- browser-sync start --server --directory --files "*" -->
+ <!-- browser-sync start --server --directory --files "**/*" -->
