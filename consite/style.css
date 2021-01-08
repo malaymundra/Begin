@@ -17,5 +17,7 @@ body {color:black;
 				font-size: 12px;
 				font-family: cursive;}
 #nav-list {color: white;}
-.nav-item > a {color: white;}
-.glyphicon {}
+.nav-item > a {color: blue;}
+.fas {color: blue;
+	size:20px;
+	font-family: 'FontAwesome'!important;}
