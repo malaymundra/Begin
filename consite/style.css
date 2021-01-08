@@ -8,16 +8,17 @@ body {color:black;
 			width: 150px;}
 .navbar-brand  h1 {padding-top: 32px;
 				margin-bottom: 5px;
-				color: white;
+				color: #D1EDF2;
 				font-style: bold;
 				font-family: 'Garamound';}
 .navbar-brand a {text-decoration: none;}
-.navbar-brand p {color: maroon;
+.navbar-brand p {color: pink;
 				margin-bottom: 5px;
 				font-size: 12px;
-				font-family: cursive;}
+				font-family: cursive;
+				font-style: bold;}
 #nav-list {color: white;}
 .nav-item > a {color: blue;}
-.fas {color: blue;
+.fas {color: maroon;
 	size:20px;
-	font-family: 'FontAwesome'!important;}
+	font-family: 'Font-Awesome'!important;}
