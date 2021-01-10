@@ -17,8 +17,10 @@ body {color:black;
 				font-size: 12px;
 				font-family: cursive;
 				font-style: bold;}
-#nav-list {color: white;}
-.nav-item > a {color: blue;}
-.fas {color: maroon;
+#nav-list {color: white;
+		list-style-type: none;}
+.nav-item > a {color: white;}
+.fas {color: white;
 	size:20px;
 	font-family: 'Font-Awesome'!important;}
+.dropdown-menu {color: blue;}
