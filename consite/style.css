@@ -37,6 +37,7 @@ body {color:black;
 #mich-tile, #fssaitile, #map-tile {
 	height: 250px;
 	width: 100%;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	position: relative;
 	border: 2px solid #D1EDF2;
@@ -60,9 +61,40 @@ body {color:black;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	font-weight: bold;
+	font-family: serif;
 	background-color: #000;
 	color: #FECC91;
 	opacity: 0.5;}
+
+.panel-footer {margin-top: 40px;
+		padding-top: 20px;
+		background-color: black;
+		opacity: 0.8;
+		color: #D1EDF2;
+		margin-bottom: 40px;
+		padding-bottom: 20px;
+		text-align: center;}
+
+#timing > span {color: red;
+		font-weight: bold;}
+#timing > aside {color: rgb(255,0,100);
+		font-weight: bold;
+		margin-bottom: 10px;}
+
+#delivery {font-size: 30px;
+		font-weight: bold;
+		color: red;
+		font-family: cursive;}
+#delivery > aside {font-size: 12px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		font-family: monospace;}
+
+#address {font-family: 'Times New Roman','Times','Serif'}
+
+#cc {color: black;
+	background-color:white ;}
 
 
 @media (min-width: 1200px) {
