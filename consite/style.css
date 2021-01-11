@@ -26,18 +26,50 @@ body {color:black;
 .dropdown-menu {color: blue;}
 
 #main-content > p {
-	font-size: 20px;
+	font-size: 15px;
 	color: #FF6347;
 	text-align: center;
 	font-family: monospace;
 	margin-top: 10px;
 	margin-bottom: 0px;}
 
+
+#mich-tile, #fssaitile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+	border: 2px solid #D1EDF2;
+	overflow: hidden;}
+
+#mich-tile:hover, #fssaitile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #FECC91}
+
+#mich-tile{
+	background-image: url(mich-star.jpg);
+	background-repeat: no-repeat;
+	background-position: center;}
+
+#fssaitile{
+	background-image: url("fssai.jpg");
+	background-repeat: no-repeat;
+	background-position: center;}
+
+#mich-tile span, #fssaitile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+	color: #FECC91;
+	opacity: 0.5;}
+
+
 @media (min-width: 1200px) {
 	.jumbotron{background-image: url("view-1100.jpg");
 		background-repeat: no-repeat;
+		background-position: center top;
 		height: 900px;
-		margin: auto;
 		margin-top: 5px;
 		padding: 5px;}
 	}
@@ -45,8 +77,9 @@ body {color:black;
 @media (min-width: 992px) and (max-width: 1199px) {
 	.jumbotron{background-image: url("view-850.jpg");
 		background-repeat: no-repeat;
+		background-position: center top;
 		height: 800px;
-		margin: auto;
+		margin: 0 auto 15px;
 		margin-top: 5px;
 		padding: 5px;}
 
@@ -55,10 +88,11 @@ body {color:black;
 @media (min-width: 769px) and (max-width: 991px) {
 	.jumbotron{background-image: url("view-650.jpg");
 		background-repeat: no-repeat;
+		background-position: center top;
 		height: 600px;
-		margin: auto;
 		margin-top: 5px;
-		padding: 5px;}
+		padding: 5px;
+		}
 
 }
 
@@ -66,10 +100,17 @@ body {color:black;
 @media (max-width: 768px ){
 	.jumbotron{background-image: url("view-525.jpg");
 		background-repeat: no-repeat;
+		background-position: center top;
 		height: 500px;
-		margin: auto;
-		margin-top: 5px;
-		padding: 5px;}
+		margin-top: 0px;
+		padding: 0px;
+		}
+}
+
+@media (max-width: 479px){
+	#mich-star, #fssaitile {
+		width: 280px;
+		margin: 0 auto 15px;}
 }
 
 
