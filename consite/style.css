@@ -109,8 +109,16 @@ body {color:black;
 #cc {color: black;
 	background-color:white ;}
 
-#sizzler {background-image:url("siz.jpg");
-	background-repeat: no-repeat;}
+.panel-footer {clear: both;}
+
+/* *******************second page*********************** */
+#menu-page-h2 {text-align: center;
+			font-family: sans-serif;
+			font-weight: bold;
+			margin-bottom: 50px;
+			color: red;}
+
+
 
 @media (min-width: 1200px) {
 	.jumbotron{background-image: url("view-1100.jpg");
@@ -127,6 +135,144 @@ body {color:black;
 		font-family: monospace;
 		position: relative;
 		top: 800px;}
+
+	/* Sizzler */
+#sizzler {margin-bottom: 75px;}
+#siz {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#siz > img {float: right;
+		height: 200px;
+		width: 250px;}
+#sizpara {float: right;
+	margin-left: 0px;
+	margin-bottom: 25px;}
+#sizpara > p {margin-top: 75px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Dragon Fruit */
+#drfruit {margin-bottom: 75px;}
+#drf {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#drf > img {float: left;
+	width: 250px;
+	height: 200px;}
+#drfpara {float: left;
+	margin-right: 0px;}
+#drfpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Misal Pav */
+#misalp {margin-bottom: 75px;}
+#msp {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#msp > img {float: right;
+		width: 250px;
+		height: 200px;}
+#msppara {float: right;
+	margin-left: 0px;}
+#msppara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Laptop */
+#laptop {margin-bottom: 75px;}
+#lap {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#lap > img {float: left;
+	width: 250px;
+	height: 200px;}
+#lappara {float: left;
+	margin-right: 0px;}
+#lappara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Mava Cake */
+#mavac {margin-bottom: 75px;}
+#mav {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#mav > img {float: right;
+		width: 250px;
+		height: 200px;}
+#mavpara {float: right;
+	margin-left: 0px;}
+#mavpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Birthday Cake */
+#hbdc {margin-bottom: 75px;}
+#hbd {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#hbd > img {float: left;
+	width: 250px;
+	height: 200px;}
+#hbdpara {float: left;
+	margin-right: 0px;}
+#hbdpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Paneer Angara */
+#paneera {margin-bottom: 75px;}
+#pa {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#pa > img {float: right;
+		width: 250px;
+		height: 200px;}
+#papara {float: right;
+	margin-left: 0px;}
+#papara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Lava Cake */
+#lavac {margin-bottom: 75px;}
+#lav {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#lav > img {float: left;
+	width: 250px;
+	height: 200px;}
+#lavpara {float: left;
+	margin-right: 0px;}
+#lavpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
 	}
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -146,6 +292,143 @@ body {color:black;
 		position: relative;
 		top: 650px;}
 
+	/* Sizzler */
+#sizzler {margin-bottom: 75px;}
+#siz {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#siz > img {float: right;
+		height: 200px;
+		width: 250px;}
+#sizpara {float: right;
+	margin-left: 0px;
+	margin-bottom: 25px;}
+#sizpara > p {margin-top: 75px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Dragon Fruit */
+#drfruit {margin-bottom: 75px;}
+#drf {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#drf > img {float: left;
+	width: 250px;
+	height: 200px;}
+#drfpara {float: left;
+	margin-right: 0px;}
+#drfpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Misal Pav */
+#misalp {margin-bottom: 75px;}
+#msp {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#msp > img {float: right;
+		width: 250px;
+		height: 200px;}
+#msppara {float: right;
+	margin-left: 0px;}
+#msppara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Laptop */
+#laptop {margin-bottom: 75px;}
+#lap {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#lap > img {float: left;
+	width: 250px;
+	height: 200px;}
+#lappara {float: left;
+	margin-right: 0px;}
+#lappara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Mava Cake */
+#mavac {margin-bottom: 75px;}
+#mav {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#mav > img {float: right;
+		width: 250px;
+		height: 200px;}
+#mavpara {float: right;
+	margin-left: 0px;}
+#mavpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Birthday Cake */
+#hbdc {margin-bottom: 75px;}
+#hbd {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#hbd > img {float: left;
+	width: 250px;
+	height: 200px;}
+#hbdpara {float: left;
+	margin-right: 0px;}
+#hbdpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Paneer Angara */
+#paneera {margin-bottom: 75px;}
+#pa {float: left;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#pa > img {float: right;
+		width: 250px;
+		height: 200px;}
+#papara {float: right;
+	margin-left: 0px;}
+#papara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
+/* Lava Cake */
+#lavac {margin-bottom: 75px;}
+#lav {float: right;
+	margin-bottom: 20px;
+	margin-right: 0px;}
+#lav > img {float: left;
+	width: 250px;
+	height: 200px;}
+#lavpara {float: left;
+	margin-right: 0px;}
+#lavpara > p {margin-top: 75px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: maroon;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;}
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
@@ -163,7 +446,118 @@ body {color:black;
 		text-align: center;
 		font-family: monospace;
 		position: relative;
-		top: 475px;}	
+		top: 475px;}
+
+	/* Sizzler */
+	#siz {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#sizpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Dragon Fruit */
+	#drf {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#drf1 {width: 250px;
+		height: 200px;}
+	#drfpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Misal Pav */
+	#msp {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#msp1 {width: 250px;
+		height: 200px;}
+	#msppara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Laptop */
+	#lap {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#lap1 {width: 250px;
+		height: 200px;}
+	#lappara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Mava Cake */
+	#mav {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#mav1 {width: 250px;
+		height: 200px;}
+	#mavpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Birthday Cake */
+	#hbd {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#hbd1 {width: 250px;
+		height: 200px;}
+	#hbdpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Paneer Angara */
+	#pa {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#pa1 {width: 250px;
+		height: 200px;}
+	#papara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Lava Cake */
+	#lav {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#lav1 {width: 250px;
+		height: 200px;}
+	#lavpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
 }
 
 
@@ -183,6 +577,133 @@ body {color:black;
 		font-family: monospace;
 		position: relative;
 		top: 400px;}	
+		/* Sizzler */
+	#siz {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#siz1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#sizpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Dragon Fruit */
+	#drf {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#drf1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#drfpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Misal Pav */
+	#msp {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#msp1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#msppara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Laptop */
+	#lap {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#lap1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#lappara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Mava Cake */
+	#mav {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#mav1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#mavpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Birthday Cake */
+	#hbd {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#hbd1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#hbdpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Paneer Angara */
+	#pa {margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;}
+	#pa1 {width: 250px;
+		height: 200px;
+		margin-left: 15%;
+		margin-right: 15%;}
+	#papara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+	/* Lava Cake */
+	#lav {margin-bottom: 10px;}
+	#lav1 {margin-left: 15%;
+		margin-right: 15%;
+		width: 250px;
+		height: 200px;}
+	#lavpara {margin-left: auto;
+		margin-right: auto;
+		color: maroon;
+		text-align: center;
+		font-family: cursive;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 50px;}
+}
 }
 
 @media (max-width: 479px){
