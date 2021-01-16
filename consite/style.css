@@ -10,7 +10,7 @@ body {color:black;
 				margin-bottom: 5px;
 				color: #D1EDF2;
 				font-style: bold;
-				font-family: 'Garamound', 'Times New Roman';}
+				font-family: 'Garamound', 'Times New Roman', cursive;}
 .navbar-brand a {text-decoration: none;}
 .navbar-brand p {color: pink;
 				margin-bottom: 5px;
@@ -117,8 +117,30 @@ body {color:black;
 			font-weight: bold;
 			margin-bottom: 50px;
 			color: red;}
+/* ***************** Third Page ***********************  */
+.Address {text-align:center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		color:white;
+		background:gray;}
 
+.Address > p:nth-child(1){color:maroon;
+					font-size: 25px;
+					font-weight: bold;
+					padding-top: 20px;}
+.Address p {padding-bottom: 20px;
+			color: pink;}
 
+#call {background: gray;
+	text-align: center;
+	margin:10px;}
+#call > p {margin:20px;
+		padding: 30px;
+		color: blue;
+		font-weight: bold;}
+#call a {text-decoration: none;
+			color: red;}
+#call a:hover {color: purple;}
 
 @media (min-width: 1200px) {
 	.jumbotron{background-image: url("view-1100.jpg");
